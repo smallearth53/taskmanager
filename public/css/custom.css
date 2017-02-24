@@ -1,0 +1,15 @@
+
+/*Code below formats the navbar to prevent the text from starting in the navbar*/
+body {
+  padding-top: 50px;
+}
+
+
+
+
+
+
+.carousel-inner > .item > img {
+  width:1920px;
+  height:320px;
+}
