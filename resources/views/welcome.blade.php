@@ -4,22 +4,24 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="8OqkxmFXFbjAAYoqNcptj6MRo3SYAf9MWWvDf9h0J-w" />
 
-        <title>Task Manager</title>
+        <title>BlackWater Solutions</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
 
         <link href="{{asset('/css/app.css')}}" rel="stylesheet" type="text/css"/>
-        <link href="{{asset('/css/custom.css?v=1.11')}}" rel="stylesheet" type="text/css"/>
+        <link href="{{asset('/css/custom.css?pretend_version_number=22')}}" rel="stylesheet" type="text/css"/>
+<!--        <link href="{{asset('/css/custom.bootstrap.css')}}" rel="stylesheet" type="text/css"/>-->
 
-       
+
 
     </head>
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -27,7 +29,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Task Manager</a>
+                    <a href="#" class="navbar-left" style='padding-right: 20px;'><img src='{{asset('/img/blackwater.png')}}' alt=""></a>
+                    <a class="navbar-brand" href="#">BlackWater Design</a>
+                    
                 </div>
                 <div id="navbar" class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
@@ -40,17 +44,17 @@
             </div>
         </nav>
 
-<!--         start of carousel 
--->        <div id = "myCarousel" class = "carousel slide" data-ride="carousel">
+        <!--         start of carousel 
+        -->        <div id = "myCarousel" class = "carousel slide" data-ride="carousel">
 
-            
+
             <ol class = "carousel-indicators">
                 <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
                 <li data-target = "#myCarousel" data-slide-to = "1"></li>
                 <li data-target = "#myCarousel" data-slide-to = "2"></li>
             </ol>   
 
-             
+
             <div class="carousel-inner">
                 <div class = "item active">
                     <img src="{{asset('/img/fractal1.png')}}">
@@ -69,7 +73,7 @@
                 </div>
             </div>
 
-             
+
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -82,8 +86,8 @@
         </div> 
 
         <!-- end of carousel -->
-        
-    
+
+
 
 
         <div class="container">
@@ -107,6 +111,13 @@
                 </div>
             </div>
 
+
+            <div class="jumbotron">
+                <h1>Hello, world!</h1>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin gravida ante in euismod euismod.</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            </div>
+
         </div><!-- /.container -->
 
 <!--        <script>
@@ -117,10 +128,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        
-        
 
-        
-      
+
+
+
+
     </body>
 </html>
