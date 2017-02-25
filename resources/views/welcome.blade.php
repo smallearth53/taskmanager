@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="8OqkxmFXFbjAAYoqNcptj6MRo3SYAf9MWWvDf9h0J-w" />
 
-        <title>BlackWater Solutions</title>
+        <title>IronGecko</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -14,7 +14,8 @@
 
         <link href="{{asset('/css/app.css')}}" rel="stylesheet" type="text/css"/>
         <link href="{{asset('/css/custom.css?pretend_version_number=22')}}" rel="stylesheet" type="text/css"/>
-<!--        <link href="{{asset('/css/custom.bootstrap.css')}}" rel="stylesheet" type="text/css"/>-->
+       <link href="https://fonts.googleapis.com/css?family=Cabin|Crimson+Text" rel="stylesheet">
+
 
 
 
@@ -30,7 +31,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="#" class="navbar-left" style='padding-right: 20px;'><img src='{{asset('/img/blackwater.png')}}' alt=""></a>
-                    <a class="navbar-brand" href="#">BlackWater Design</a>
+                    <a class="navbar-brand" href="#">IronGecko Design</a>
                     
                 </div>
                 <div id="navbar" class="collapse navbar-collapse navbar-right">
