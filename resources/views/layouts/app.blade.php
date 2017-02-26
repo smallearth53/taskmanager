@@ -30,7 +30,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="#" class="navbar-left" style='padding-right: 20px;'></a>
-                    <a class="navbar-brand" href="#"><img src='{{asset('/img/geckologo5.png')}}' height='35px' width="250" class="img-responsive"></a>
+                    <a class="navbar-brand" href="#"><img src='{{asset('/img/geckologo5.png')}}' height='35px'></a>
 
                 </div>
                 <div id="navbar" class="collapse navbar-collapse navbar-right">

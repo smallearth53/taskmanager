@@ -35,12 +35,13 @@ body {
 
 .navbar-brand {
     position: absolute;
-    width: 100%;
+    width: auto;
     left: 20px;
     top: 0;
     bottom: 15;
     text-align: center;
     margin: auto;
+    height: 100%;
 }
 .navbar-toggle {
     z-index:3;
