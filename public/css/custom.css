@@ -9,13 +9,39 @@ body {
 
 
 
-.carousel-inner > .item > img {
-  width:1920px;
-  height:320px;
-}
 
 
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Cabin', sans-serif;
+    color: #222222;
+}
+
+body {
+    background-image: url('/img/background1.png');
+    background-repeat:no-repeat;
+    color: #222222;
+}
+
+body {
+    opacity: 1.0;
+}
+
+/*.container .nav {
+    opacity: 1;
+    color: black;
+}*/
+
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 20px;
+    top: 0;
+    bottom: 15;
+    text-align: center;
+    margin: auto;
+}
+.navbar-toggle {
+    z-index:3;
 }
