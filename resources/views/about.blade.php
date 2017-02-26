@@ -9,7 +9,7 @@
 @section('content')
 <div class="container">
     <h1>About me</h1>
-    <img src="{{asset('/img/geckologo1.png')}}" alt=""/>
+    <img src="{{asset('/img/geckologo1.png')}}" alt="" class="img-responsive"/>
     
 </div>
 @endsection
