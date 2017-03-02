@@ -17,6 +17,11 @@
         <link href="{{asset('/css/app.css')}}" rel="stylesheet" type="text/css"/>
         <link href="{{asset('/css/custom.css').'?'.time()}}" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Cabin|Crimson+Text" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+        
+<!--      <script src="https://unpkg.com/vue"></script>-->
+      <script src="{{asset('/js/app.js')}}"></script>
+        
     </head>
     <body>
         @section('navbar')
@@ -30,7 +35,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="#" class="navbar-left" style='padding-right: 20px;'></a>
-                    <a class="navbar-brand" href="#"><img src='{{asset('/img/geckologo5.png')}}' height='35px'></a>
+                    <a class="navbar-brand" href="#"><img src='{{asset('/img/geckologo7.png')}}' height='35px'></a>
 
                 </div>
                 <div id="navbar" class="collapse navbar-collapse navbar-right">
@@ -48,6 +53,7 @@
         @yield('content')
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 

@@ -2,6 +2,7 @@
 /*Code below formats the navbar to prevent the text from starting in the navbar*/
 body {
   padding-top: 50px;
+  
 }
 
 
@@ -14,14 +15,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Cabin', sans-serif;
-    color: #222222;
+/*    color: #222222;*/
 }
 
-body {
-    background-image: url('/img/background1.png');
-    background-repeat:no-repeat;
-    color: #222222;
+p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 15px;
 }
+
 
 body {
     opacity: 1.0;
@@ -46,3 +48,5 @@ body {
 .navbar-toggle {
     z-index:3;
 }
+
+
