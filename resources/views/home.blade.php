@@ -9,60 +9,35 @@
 @section('content')
 
 
-       <section id="whoWeAre">
+     <section id="hero-area" >
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-push-2 clearfix">
-                        <div class="section-heading scrollpoint sp-effect3">
-                            <h1><span>G</span>ecko <span>D</span>esign <span>S</span>tudios
-                            </h1>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedita cupiditate repellat debitis! Est qui quae consectetur temporibus a illum deleniti? Quae, adipisci praesentium quis omnis dignissimos!</h4>
-                            <span class="divider"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="media scrollpoint sp-effect2">
-                            <a class="pull-left" href="#">
-                                <i class="media-object fa fa-star fa-4x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">clean & clear</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
-                            </div>
-                        </div>
-                        <div class="media scrollpoint sp-effect2">
-                            <a class="pull-left" href="#">
-                                <i class="media-object fa fa-support fa-4x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">24/7/365 support</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="media right scrollpoint sp-effect1">
-                            <a class="pull-right" href="#">
-                                <i class="media-object fa fa-send fa-4x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">multipurpose layout</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
-                            </div>
-                        </div>
-                        <div class="media right scrollpoint sp-effect1">
-                            <a class="pull-right" href="#">
-                                <i class="media-object fa fa-slack fa-4x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">pixed perfect</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                    <div class="col-md-12 text-center">
+                        <div class="block wow fadeInUp" data-wow-delay=".3s">
+                            
+                            <!-- Slider -->
+                            <section class="cd-intro">
+                                <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
+                                <span>HI, MY NAME IS JONATHON & I AM A</span><br>
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">DESIGNER</b>
+                                    <b>DEVELOPER</b>
+                                    <b>FATHER</b>
+                                </span>
+                                </h1>
+                                </section> <!-- cd-intro -->
+                                <!-- /.slider -->
+                                <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
+                                    With 10 years experience, I've occupied many roles including digital design director,<br> web designer and developer. This site showcases some of my work.
+                                </h2>
+                                <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works" >View Works</a>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section><!--/#main-slider-->
+
         
     
 
