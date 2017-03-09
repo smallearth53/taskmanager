@@ -9,13 +9,28 @@ use Illuminate\Http\Request;
 class ContactController extends Controller
 {
     function index() {
-        
+       /* GET /contact */
        
         return  view('contact.contactform');
     }
     
     function post() {
-        return  'test';
+        /* POST /contact */
+        
+//        $contact = new Contact;
+//        $contact->email = request('email');
+//        $contact->message = request('message');
+//        
+//        $contact->save();
+        
+        Contact::create([
+            'email' => request('email'),
+            'message' => request('message')
+        ]);
+        
+        return redirect('/contact');
+      
+        
     }
     
     function listContacts() {
