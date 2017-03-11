@@ -31,3 +31,4 @@ class ContactMail extends Mailable
         return $this->view('emails.contact');
     }
 }
+fuckbob
