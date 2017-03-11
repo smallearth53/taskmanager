@@ -18,7 +18,7 @@
                             <!-- Slider -->
                             <section class="cd-intro">
                                 <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
-                                <span>WE ARE GECKO DESIGN STUDIOS</span><br>
+                                <span>WE ARE PANZIS</span><br>
                                 <span class="cd-words-wrapper">
                                     <b class="is-visible">DESIGNERS</b>
                                     <b>DEVELOPERS</b>
