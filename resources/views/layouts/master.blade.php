@@ -38,6 +38,8 @@
         <!-- responsive css -->
         <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
         
+        <link rel="stylesheet" href="{{asset('css/custom.css')}}">
+        
            
         <!-- Template Javascript Files
         ================================================== -->
