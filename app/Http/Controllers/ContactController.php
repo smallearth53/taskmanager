@@ -35,11 +35,7 @@ class ContactController extends Controller
         
     }
     
-    function listContacts() {
-       $contacts = Contact::all();
-       
-       return  view('contact.list', compact('contacts')); 
-    }
+    
     
     function show(Contact $contact) {
         

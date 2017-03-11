@@ -21,9 +21,15 @@ Route::get('/about', function () {
 
 Route::get('/contact', 'ContactController@index');
 
+Route::get('/contact/list', 'ReportsController@listContacts');
+
 Route::post('/contact', 'ContactController@post');
 
 Route::get('/contact/show', 'ContactController@listContacts');
 
 Route::get('/contact/show/{contact}', 'ContactController@show');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

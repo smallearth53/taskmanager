@@ -15,6 +15,7 @@
                         <a href="index.html" >
                             <img src="img/geckologo5.png" height=35px" alt="">
                         </a>
+                        Welcome
                     </div>
                     <!-- /logo -->
                 </div>
