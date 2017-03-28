@@ -1,4 +1,22 @@
 
+.content-header {
+    font-family: 'Macondo', cursive;
+}
+
+#mask {
+      float: left;
+      width: 300px;
+      margin-left: 100px;
+       
+   }
+   
+   #test {
+       color: #414141;
+   }
+   
+   .container {
+       padding-top: 80px;
+   }
 
 
 

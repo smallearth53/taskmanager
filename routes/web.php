@@ -19,6 +19,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/useradmin', function () {
+    return view('layouts.app');
+});
+
 Route::get('/contact', 'ContactController@index');
 
 Route::get('/contact/list', 'ReportsController@listContacts');

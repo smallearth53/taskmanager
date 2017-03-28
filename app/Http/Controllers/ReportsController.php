@@ -18,7 +18,9 @@ class ReportsController extends Controller {
 
         $contacts = Contact::all();
 
-        return view('contact.list', compact('contacts'));
+//        return view('contact.list', compact('contacts'));
+        
+        return $contacts;
     }
 
 }

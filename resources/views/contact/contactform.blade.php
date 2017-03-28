@@ -8,9 +8,7 @@
 
 @section('content')
 
-================================================== 
-Global Page Section Start
-================================================== -->
+
 <section class="global-page-header">
     <div class="container">
         <div class="row">
@@ -19,8 +17,7 @@ Global Page Section Start
                     <h2>Contact</h2>
                     <ol class="breadcrumb">
                         <li>
-                            <a href="index.html">
-                                <i class="ion-ios-home"></i>
+                            <a href="{{url('/')}}">
                                 Home
                             </a>
                         </li>

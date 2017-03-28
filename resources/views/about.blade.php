@@ -7,18 +7,21 @@
 @endsection
 
 @section('content')
-<section id="contactform"> 
+<section class="global-page-header">
+
+</section><!--/#page-header-->
+
+
     <div class="container"> 
         <div class="row"> 
 
             <div class="col-sm-12">
-                <h1>About</h1>
-                <p>This is the About Me page.</p>
+                <example></example>
 
             </div>
         </div>
     </div>
-</section>
+
 
 
 @endsection

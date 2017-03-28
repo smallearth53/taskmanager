@@ -9,37 +9,49 @@
 @section('content')
 
 
-     <section id="hero-area" >
-            <div class="container">
+
+    <div class="container">
+        <div class="row">
+
+
+            <div>
+
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="block wow fadeInUp" data-wow-delay=".3s">
-                            
-                            <!-- Slider -->
-                            <section class="cd-intro">
-                                <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
-                                <span>WE ARE PANZIS</span><br>
-                                <span class="cd-words-wrapper">
-                                    <b class="is-visible">DESIGNERS</b>
-                                    <b>DEVELOPERS</b>
-                                    <b>SEO CONSULTANTS</b>
-                                </span>
-                                </h1>
-                                </section> <!-- cd-intro -->
-                                <!-- /.slider -->
-                                <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
-                                    Help us to help your business be amazing
-                                </h2>
-                                <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works" >View Works</a>
-                                
-                            </div>
+
+                    <div class="col-lg-4">
+                        <h2 class='content-header'>Rich Creamy Coffee</h2>
+                        <p id="test">
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2 class='content-header'>Dark and Foamy</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div id='mask'>
+
+                            <img src="{{asset('img/mask.png')}}" class="animated fadeInLeftBig"></p>
                         </div>
                     </div>
                 </div>
-            </section><!--/#main-slider-->
 
-        
-    
 
-    @endsection
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+@endsection
 
